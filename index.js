@@ -34,6 +34,9 @@ function run() {
 function reset() {
   clearInterval(myinterval);
   timer.innerText = `00:00:00`;
+  sec = 0;
+  min = 0;
+  milliseconds = 0;
 }
 
 function stop() {
